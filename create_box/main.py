@@ -11,6 +11,12 @@ def create_box(height, width, character):
         return box
     else:
         return "Need a valid width and height"
+        
+def create_hollow_box(height, width, character):
+    box = ""
+    #make hollow box
+    return box
+    
 
 if __name__ == '__main__':
     create_box(3, 4, '*')
